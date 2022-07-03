@@ -4,18 +4,19 @@ body {
     text-align: center;
     margin: auto;
     background-color: rgb(141, 175, 141);
-    min-width: 400px;
+    min-width: 300px;
     max-width: 800px;
 }
 
 header {
     margin-top: 0px;
+    background-color: rgb(128, 128, 128);
 }
 
 header > h1 {
     text-align: center;
     font-size: 40px;
-    color: rgb(45, 97, 3);
+    color: rgb(4, 116, 13);
     margin: 0px;
     padding: 25px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.452);
@@ -28,23 +29,36 @@ header > h2 {
 }
 
 li {
+    margin-top: -2px;
     list-style: none;
     float: left;
 }
 
-a {
+a { 
+    color: rgba(146, 204, 154, 0.774);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.308);
+    border-radius: 0px 0px 5px 5px;
+    margin-right: 10px;
+    background-color: rgb(131, 131, 131);
     display: block;
     text-decoration: none;
-    text-align: left;
-    width: 120px;
+    text-align: center;
+    width: 70px;
     float: left;
     padding-bottom: 5px;
+    box-shadow: 0px 1px 1px 0px rgba(37, 37, 37, 0.623);
+}
+
+a:hover {
+    color: rgba(252, 253, 252, 0.774);
+    background-color: rgb(95, 95, 95);
 }
 
 main {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(37, 37, 37, 0.438);
 }
+
 .img {
     background-size: cover;
     background-position: center;
