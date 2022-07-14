@@ -67,9 +67,42 @@ main {
     box-shadow: 0px 3px 7px rgba(59, 59, 59, 0.479);
 }
 
+div {
+    font-size: small;
+    text-align: justify;
+    float: right;
+    margin: 15px;
+    padding: 3px;
+    max-width: 400px;
+    min-height: 40px;
+    background-color: rgba(186, 179, 250, 0.678);
+    border-radius: 10px;
+}
+
+svg {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    align-content: flex-start;
+}
+
+#economia {
+    background-image: url(../SVG/economia.svg);
+}
+
+#cadeado {
+    background-image: url(../SVG/cadeado.svg);
+}
+
+#game {
+    background-image: url(../SVG/game.svg);
+}
+
 #arvore {
+    height: 350px;
     padding: 15px;
-    background-image: url(../imagens/arvores.jpg);
+    background-image: url(../imagens/earttec.jpg);
 }
 
 #praia {
